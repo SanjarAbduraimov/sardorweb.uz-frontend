@@ -7,7 +7,8 @@ const Text = styled('div')(
     variants: {
       hero: {
         color: 'white',
-        fontSize: [44, 72],
+        fontSize: [40, 64, 72],
+        lineHeight: ['48px', '64px', '72px'],
         fontWeight: 800,
       },
       heading: {
