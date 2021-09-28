@@ -3,7 +3,7 @@ import HeaderLinks from './HeaderLinks';
 import { useState } from 'react';
 import Link from 'next/link';
 import Logo from '../Logo';
-import { Container, Frame, Wrapper } from '../UIKit';
+import { Container, Frame } from '../UIKit';
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = useState(false);

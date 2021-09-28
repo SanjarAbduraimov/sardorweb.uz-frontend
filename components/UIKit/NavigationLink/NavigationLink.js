@@ -10,7 +10,7 @@ const AnchorLink = styled.a`
 
   :hover {
     cursor: pointer;
-    color: #0c0c0c;
+    color: white;
   }
 `;
 
