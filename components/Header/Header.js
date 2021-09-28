@@ -21,7 +21,7 @@ export default function Navbar(props) {
       right={0}
       left={0}
       zIndex={99}
-      borderBottom='1px solid steelGray'
+      bg={['12121C']}
     >
       <Link href='/'>
         <a>
