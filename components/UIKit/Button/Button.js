@@ -17,25 +17,25 @@ const Button = styled('a')(
         py: 16,
         borderRadius: 8,
         fontSize: 16,
+        lineHeight: '18px',
         cursor: 'pointer',
         fontWeight: 'bold',
         width: ['100%', 'inherit'],
 
         '&:hover': {
-          background: 'transparent',
-          color: '#161616',
-          boxShadow: '0 0 0 2px #e3e5e5 inset',
+          background: '#222233',
+          color: 'white',
         },
       },
       secondary: {
         textAlign: 'center',
-        color: '#161616',
-        background: 'transparent',
-        boxShadow: '0 0 0 2px #e3e5e5 inset',
+        color: 'white',
+        background: '#222233',
         px: 60,
         py: 20,
         borderRadius: 18,
-        fontSize: 16,
+        fontSize: 14,
+        lineHeight: '16px',
         cursor: 'pointer',
 
         '&:hover': {
