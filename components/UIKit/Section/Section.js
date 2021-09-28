@@ -11,7 +11,7 @@ import {
   shadow,
 } from 'styled-system';
 
-const Section = styled.div`
+const Section = styled.section`
   ${space}
   ${layout}
   ${flexbox}

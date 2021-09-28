@@ -5,43 +5,38 @@ const Text = styled('div')(
   variant({
     prop: 'size',
     variants: {
-      Orange: {
-        color: 'dark',
+      hero: {
+        color: 'white',
         fontSize: [44, 72],
-        fontWeight: 'bold',
+        fontWeight: 800,
       },
-      H1: {
-        color: 'dark',
-        fontSize: [44, 72],
-
-        fontWeight: 'bold',
-      },
-      H2: {
+      heading: {
         color: 'dark',
         fontSize: [38, 48],
         fontWeight: 'bold',
       },
-      H3: {
+      heading2: {
         color: 'dark',
         fontSize: [32, 30],
         fontWeight: 'bold',
       },
-      Headline2: {
+      body: {
+        color: 'aluminium',
+        fontSize: [16, 24],
+        lineHeight: ['24px', '32px'],
+        fontWeight: 300,
+      },
+      bodyBold: {
         color: 'dark',
         fontSize: [24],
         fontWeight: 500,
       },
-      BodyIntro: {
-        color: 'dark',
-        fontSize: [22],
-        fontWeight: 500,
-      },
-      BodyMain: {
+      caption: {
         color: 'gray',
         fontSize: [20, 22],
         fontWeight: 400,
       },
-      MediumText: {
+      caption2: {
         color: 'gray',
         fontSize: [17, 18],
         lineHeight: '26px',

@@ -1,7 +1,10 @@
 export default {
   colors: {
-    dark: '#0E0F2E',
-    gray: '#A6B3C7',
-    border: '#e3e5e5',
+    vulcan: '#12121C',
+    steelGray: '#222233',
+    white: '#FFFFFF',
+    aluminium: '#88888D',
+    limeGreen: '#57EFB4',
+    navyBlue: '#006ADA',
   },
 };

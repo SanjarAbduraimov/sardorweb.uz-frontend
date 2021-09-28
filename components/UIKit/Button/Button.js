@@ -12,12 +12,14 @@ const Button = styled('a')(
       primary: {
         textAlign: 'center',
         color: 'white',
-        background: '#2884ff',
-        px: 60,
-        py: 20,
-        borderRadius: 18,
+        background: '#006ADA',
+        px: 24,
+        py: 16,
+        borderRadius: 8,
         fontSize: 16,
         cursor: 'pointer',
+        fontWeight: 'bold',
+        width: ['100%', 'inherit'],
 
         '&:hover': {
           background: 'transparent',
