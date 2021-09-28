@@ -13,12 +13,14 @@ const Text = styled('div')(
       },
       heading: {
         color: 'dark',
-        fontSize: [38, 48],
+        fontSize: [40, 48, 64],
+        lineHeight: ['48px', '56px', '64px'],
         fontWeight: 'bold',
       },
-      heading2: {
+      heading4: {
         color: 'dark',
-        fontSize: [32, 30],
+        fontSize: [32, 32, 32],
+        lineHeight: ['40px', '40px', '40px'],
         fontWeight: 'bold',
       },
       body: {
@@ -28,40 +30,42 @@ const Text = styled('div')(
         fontWeight: 300,
       },
       bodyBold: {
-        color: 'dark',
-        fontSize: [24],
-        fontWeight: 500,
+        color: 'white',
+        fontSize: [16, 24],
+        lineHeight: ['24px', '32px'],
+        fontWeight: 'bold',
+      },
+      body2Bold: {
+        color: 'white',
+        fontSize: [16, 16],
+        lineHeight: ['24px', '24px'],
+        fontWeight: 'bold',
       },
       caption: {
-        color: 'gray',
-        fontSize: [20, 22],
+        color: 'aluminium',
+        fontSize: [12, 14],
+        lineHeight: ['20px', '24px'],
         fontWeight: 400,
       },
-      caption2: {
-        color: 'gray',
-        fontSize: [17, 18],
-        lineHeight: '26px',
-        fontWeight: 400,
+      caption2Bold: {
+        color: 'white',
+        fontSize: [12, 12],
+        lineHeight: ['20px', '20px'],
+        fontWeight: 'bold',
       },
-      Caption: {
-        color: 'gray',
-        fontSize: [15, 16],
-        fontWeight: 400,
+      Hairline: {
+        textTransform: 'uppercase',
+        color: 'white',
+        fontSize: [16, 16],
+        lineHeight: ['16px', '16px'],
+        fontWeight: 'bold',
       },
-      Caption2: {
-        color: 'gray',
-        fontSize: [15, 16],
-        fontWeight: 400,
-      },
-      SmallText: {
-        color: 'gray',
-        fontSize: [13, 14],
-        fontWeight: 400,
-      },
-      SmallText2: {
-        color: 'gray',
-        fontSize: [13, 14],
-        fontWeight: 400,
+      HairlineSmall: {
+        textTransform: 'uppercase',
+        color: 'white',
+        fontSize: [12, 12],
+        lineHeight: ['12px', '12px'],
+        fontWeight: 'bold',
       },
     },
   })
