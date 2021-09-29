@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export default function InformationII() {
   return (
-    <Section py={[45, 100, 120]} px={[32, 90, 90]}>
+    <Section py={[45, 80, 100]} px={[32, 60, 90]}>
       <Container
         display={['row', 'row', 'flex']}
         alignItems={['center']}

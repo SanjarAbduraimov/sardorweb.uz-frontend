@@ -2,7 +2,7 @@ import { Button, Container, Section, Text, Wrapper } from '../UIKit';
 
 export default function Cta() {
   return (
-    <Section py={[45, 100, 120]} px={[32, 90, 90]}>
+    <Section py={[45, 80, 100]} px={[32, 60, 90]}>
       <Container
         display={['row', 'row', 'flex']}
         alignItems={['center']}
@@ -21,7 +21,7 @@ export default function Cta() {
           </Text>
           <Button variant='primary'>Get In Touch</Button>
         </Wrapper>
-        <Wrapper maxWidth={[500]} mt={[48, 0, 0]}>
+        <Wrapper maxWidth={[500]} mt={[48, 48, 0]}>
           <Text size={['heading4', 'heading2', 'heading2']}>
             How about we make something awesome together?
           </Text>

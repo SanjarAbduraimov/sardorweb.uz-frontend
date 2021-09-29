@@ -21,7 +21,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <Section py={[45, 100, 120]} px={[32, 90, 90]}>
+    <Section py={[45, 80, 100]} px={[32, 60, 90]}>
       <Container
         display={['row', 'row', 'flex']}
         alignItems={['flex-start']}

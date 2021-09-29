@@ -30,7 +30,7 @@ const items = [
 
 export default function Hero() {
   return (
-    <Section pt={[90, 100, 120]} px={[32, 90, 90]} pb={[32, 45, 45]}>
+    <Section pt={[90, 100, 120]} px={[32, 60, 90]} pb={[32, 45, 0]}>
       <Container>
         <Wrapper
           display={['grid']}

@@ -15,7 +15,7 @@ export default function Navbar(props) {
       alignItems='center'
       justifyContent='space-between'
       id='navbar'
-      px={[32, 80, 80]}
+      px={[32, 60, 90]}
       position={['sticky', 'sticky']}
       top={0}
       right={0}
