@@ -11,14 +11,26 @@ const Text = styled('div')(
         lineHeight: ['48px', '64px', '72px'],
         fontWeight: 800,
       },
-      heading: {
-        color: 'dark',
-        fontSize: [40, 48, 64],
-        lineHeight: ['48px', '56px', '64px'],
+      heading1: {
+        color: 'white',
+        fontSize: [64],
+        lineHeight: ['64px'],
         fontWeight: 'bold',
       },
+      heading2: {
+        color: 'white',
+        fontSize: [48],
+        lineHeight: ['56px'],
+        fontWeight: 'bold',
+      },
+      heading3: {
+        color: 'white',
+        fontSize: [40],
+        lineHeight: ['48px'],
+        fontWeight: 800,
+      },
       heading4: {
-        color: 'dark',
+        color: 'white',
         fontSize: [32, 32, 32],
         lineHeight: ['40px', '40px', '40px'],
         fontWeight: 'bold',
