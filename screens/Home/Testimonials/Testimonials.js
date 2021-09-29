@@ -35,6 +35,7 @@ export default function Testimonials() {
           alignItems={['space-between']}
           justifyContent={['space-between']}
           height={['100%']}
+          bg={'tomato'}
         >
           <Wrapper display={['grid']} gridGap={[16]}>
             <Text size={['heading4', 'heading2', 'heading2']}>
