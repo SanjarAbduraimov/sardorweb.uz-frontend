@@ -46,7 +46,7 @@ export default function Hero() {
               Digital <span style={{ color: '#88888D' }}>Product</span> Designer
               <span style={{ color: '#57EFB4' }}>.</span>
             </Text>
-            <Text size='body'>
+            <Text size={['body2', 'body', 'body']}>
               I am Portier, experienced Digital Product Designer based on
               Florida. I am here to help you build your amazing product.
             </Text>

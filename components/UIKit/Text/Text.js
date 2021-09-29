@@ -37,8 +37,14 @@ const Text = styled('div')(
       },
       body: {
         color: 'aluminium',
-        fontSize: [16, 24],
-        lineHeight: ['24px', '32px'],
+        fontSize: [24],
+        lineHeight: ['32px'],
+        fontWeight: 300,
+      },
+      body2: {
+        color: 'aluminium',
+        fontSize: [16],
+        lineHeight: ['24px'],
         fontWeight: 300,
       },
       bodyBold: {
