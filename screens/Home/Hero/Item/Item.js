@@ -6,10 +6,18 @@ const Container = styled.div`
   border-radius: 8px;
   transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) linear;
 
+  svg {
+    fill: white;
+  }
+
   &:hover {
     background-color: #222233;
     #icon {
       background-color: #29c83f;
+    }
+
+    svg {
+      fill: #222233;
     }
 
     #text {
@@ -36,12 +44,7 @@ export default function Item(props) {
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
           >
-            <path
-              fill-rule='evenodd'
-              clip-rule='evenodd'
-              d={props.icon}
-              fill='white'
-            />
+            <path fill-rule='evenodd' clip-rule='evenodd' d={props.icon} />
           </svg>
         </Frame>
         <Wrapper

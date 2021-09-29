@@ -21,7 +21,7 @@ const Container = styled.div`
   }
 `;
 
-export default function WorkCard() {
+export default function WorkCard(props) {
   return (
     <a>
       <Container>
@@ -34,11 +34,11 @@ export default function WorkCard() {
         >
           <Image
             alt=''
-            src='/images/01.webp'
+            src={props.image}
             layout='fill'
             placeholder='blur'
             objectFit='cover'
-            blurDataURL='/images/01.webp'
+            blurDataURL={props.image}
             onLoadingComplete=''
           />
         </Frame>
@@ -53,7 +53,7 @@ export default function WorkCard() {
           width={['100%']}
         >
           <Wrapper px={[16]} py={[16]} bg={['white']} borderRadius={[8]}>
-            <Text>Portier - The ultimate templates & components library.</Text>
+            <Text>{props.title}</Text>
           </Wrapper>
           <Frame
             id='icon'

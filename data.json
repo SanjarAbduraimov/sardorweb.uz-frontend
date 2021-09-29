@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "image": "/mockup01.webp",
-      "title": "Fuego",
+      "image": "/images/01.webp",
+      "title": "Portier - The ultimate templates & components library.",
       "icon": ""
     },
     {
-      "image": "/mockup01.webp",
-      "title": "Fuego",
+      "image": "/images/02.webp",
+      "title": "The Corporate - Card for Indian Startups",
       "icon": ""
     },
     {
-      "image": "/mockup01.webp",
-      "title": "Fuego",
+      "image": "/images/03.webp",
+      "title": "Components Web App Interface",
       "icon": ""
     }
   ]
