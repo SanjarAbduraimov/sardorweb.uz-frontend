@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const Container = styled.div`
   display: grid;
   grid-template-columns: 44px auto;
+  justify-items: flex-start;
   grid-gap: 24px;
   padding: 20px;
   border-radius: 8px;
