@@ -42,7 +42,7 @@ export default function Hero() {
             justifyItems={['stretch', 'flex-start']}
             gridGap={[16]}
           >
-            <Text size={['hero']}>
+            <Text size={['heading3', 'heading1', 'hero']}>
               Digital <span style={{ color: '#88888D' }}>Product</span> Designer
               <span style={{ color: '#57EFB4' }}>.</span>
             </Text>
