@@ -61,8 +61,8 @@ const Text = styled('div')(
       },
       caption: {
         color: 'aluminium',
-        fontSize: [12, 14],
-        lineHeight: ['20px', '24px'],
+        fontSize: [14],
+        lineHeight: ['24px'],
         fontWeight: 400,
       },
       captionBold: {
@@ -71,6 +71,13 @@ const Text = styled('div')(
         lineHeight: ['20px', '24px'],
         fontWeight: 'bold',
       },
+      caption2: {
+        color: 'aluminium',
+        fontSize: [12],
+        lineHeight: ['20px'],
+        fontWeight: 400,
+      },
+
       caption2Bold: {
         color: 'white',
         fontSize: [12, 12],
