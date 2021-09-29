@@ -21,7 +21,7 @@ export default function Navbar(props) {
       right={0}
       left={0}
       zIndex={99}
-      bg={['12121C']}
+      bg={['#12121C']}
     >
       <Link href='/'>
         <a>
