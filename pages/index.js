@@ -1,5 +1,12 @@
 import Layout from '../components/Layout';
-import { Facts, Hero, Information, Testimonials, Works } from '../screens/Home';
+import {
+  Facts,
+  Hero,
+  Information,
+  InformationII,
+  Testimonials,
+  Works,
+} from '../screens/Home';
 
 export default function Home() {
   return (
@@ -9,6 +16,7 @@ export default function Home() {
       <Information />
       <Testimonials />
       <Facts />
+      <InformationII />
     </Layout>
   );
 }
