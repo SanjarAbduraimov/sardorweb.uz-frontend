@@ -8,14 +8,14 @@ const testimonials = [
     position: 'Cobrand - CEO',
   },
   {
-    image: '/images/04.jpeg',
-    name: 'Karla Benivez',
-    position: 'Cobrand - CEO',
+    image: '/images/06.jpg',
+    name: 'Angel Vazquez',
+    position: 'Tinnie - CO-Founder',
   },
   {
-    image: '/images/04.jpeg',
-    name: 'Mark Clark',
-    position: 'Cobrand - CEO',
+    image: '/images/07.jpg',
+    name: 'Karla Benivez',
+    position: 'Adastrea - Lead Developer',
   },
 ];
 
@@ -28,25 +28,15 @@ export default function Testimonials() {
         justifyContent={['space-between']}
         width={[1]}
       >
-        <Wrapper
-          maxWidth={[600]}
-          display={['flex']}
-          flexDirection={['column']}
-          alignItems={['space-between']}
-          justifyContent={['space-between']}
-          height={['100%']}
-          bg={'tomato'}
-        >
-          <Wrapper display={['grid']} gridGap={[16]}>
-            <Text size={['heading4', 'heading2', 'heading2']}>
-              What people say about me
-            </Text>
-            <Text size='caption'>
-              These steps are: Deep Observation (The Passive Mode), Skills
-              Acquisition (The Practice Mode), and Experimentation (The Active
-              Mode).
-            </Text>
-          </Wrapper>
+        <Wrapper display={['grid']} gridGap={[16]} maxWidth={[600]}>
+          <Text size={['heading4', 'heading2', 'heading2']}>
+            What people say about me
+          </Text>
+          <Text size='caption'>
+            These steps are: Deep Observation (The Passive Mode), Skills
+            Acquisition (The Practice Mode), and Experimentation (The Active
+            Mode).
+          </Text>
 
           <Text size='caption'>
             Empathy plays an enormous role in learning and knowledge.

@@ -28,11 +28,11 @@ export default function Testimonial(props) {
       >
         <Image
           alt=''
-          src='/images/04.jpeg'
+          src={props.image}
           layout='fill'
           placeholder='blur'
           objectFit='cover'
-          blurDataURL='/images/04.jpeg'
+          blurDataURL={props.image}
           onLoadingComplete=''
         />
       </Frame>
