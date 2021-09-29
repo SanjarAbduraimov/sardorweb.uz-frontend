@@ -1,10 +1,11 @@
 import Layout from '../components/Layout';
-import { Hero } from '../screens/Home';
+import { Hero, Works } from '../screens/Home';
 
 export default function Home() {
   return (
     <Layout title='Home'>
       <Hero />
+      <Works />
     </Layout>
   );
 }
