@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import { Hero, Information, Testimonials, Works } from '../screens/Home';
+import { Facts, Hero, Information, Testimonials, Works } from '../screens/Home';
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <Works />
       <Information />
       <Testimonials />
+      <Facts />
     </Layout>
   );
 }

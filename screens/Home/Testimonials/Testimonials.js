@@ -14,8 +14,8 @@ const testimonials = [
   },
   {
     image: '/images/07.jpg',
-    name: 'Karla Benivez',
-    position: 'Adastrea - Lead Developer',
+    name: 'Brandon Arreguin',
+    position: 'Adastrea - CEO',
   },
 ];
 
