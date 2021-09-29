@@ -21,7 +21,7 @@ export default function InformationII() {
           overflow='hidden'
           height={[420, 500]}
           width={[1, 1, 500]}
-          mt={[48, 48, 0]}
+          mb={[48, 48, 0]}
           borderRadius={[8]}
         >
           <Image
