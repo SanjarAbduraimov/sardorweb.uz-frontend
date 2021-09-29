@@ -6,6 +6,7 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 44px auto;
   justify-items: flex-start;
+  align-items: flex-start;
   grid-gap: 24px;
   padding: 20px;
   border-radius: 8px;
@@ -24,7 +25,6 @@ export default function Testimonial(props) {
         overflow='hidden'
         height={[44, 44]}
         width={[44, 44, 44]}
-        mt={[48, 48, 0]}
         borderRadius={['50%']}
       >
         <Image
