@@ -41,11 +41,11 @@ export default function Information() {
         >
           <Image
             alt=''
-            src='/images/01.webp'
+            src='/images/05.jpg'
             layout='fill'
             placeholder='blur'
             objectFit='cover'
-            blurDataURL='/images/01.webp'
+            blurDataURL='/images/05.jpg'
             onLoadingComplete=''
           />
         </Frame>
