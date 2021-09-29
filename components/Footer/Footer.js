@@ -64,7 +64,7 @@ export default function Footer() {
         justifyContent='space-between'
       >
         <Wrapper textAlign={['center', 'left']}>
-          <Text size='caption'>
+          <Text size='caption2'>
             Copyright © {date.getFullYear()} - All rights reserved - Made by{' '}
             <a
               href='https://vazurio.co'
