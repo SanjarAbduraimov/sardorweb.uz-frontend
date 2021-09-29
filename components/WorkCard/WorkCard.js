@@ -45,7 +45,7 @@ export default function WorkCard(props) {
 
         <Wrapper
           position={['absolute']}
-          p={[20, 20]}
+          p={[10, 20]}
           bottom={[0]}
           display={['flex']}
           alignItems={['center']}
