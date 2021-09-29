@@ -29,7 +29,7 @@ export default function Social(props) {
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
       >
-        <path d={props.icon} fill-rule='evenodd' clip-rule='evenodd'></path>
+        <path d={props.icon} fillRule='evenodd' clipRule='evenodd'></path>
       </svg>
     </Container>
   );
