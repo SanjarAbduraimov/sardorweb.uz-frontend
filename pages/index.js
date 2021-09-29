@@ -1,3 +1,4 @@
+import Cta from '../components/Cta';
 import Layout from '../components/Layout';
 import {
   Facts,
@@ -17,6 +18,7 @@ export default function Home() {
       <Testimonials />
       <Facts />
       <InformationII />
+      <Cta />
     </Layout>
   );
 }
