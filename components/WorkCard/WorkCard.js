@@ -53,7 +53,7 @@ export default function WorkCard(props) {
           width={['100%']}
         >
           <Wrapper px={[16]} py={[16]} bg={['white']} borderRadius={[8]}>
-            <Text>{props.title}</Text>
+            <Text size='captionBold'>{props.title}</Text>
           </Wrapper>
           <Frame
             id='icon'
