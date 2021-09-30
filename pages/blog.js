@@ -32,9 +32,9 @@ export default function Blog({ allPostsData }) {
         </Wrapper>
         <Container display={['grid']} gridGap={[32]}>
           {allPostsData.map(({ id, date, title, image }) => (
-            <Link href={`/posts/${id}`}>
+            <Link key={id} href={`/posts/${id}`}>
               <a>
-                <BlogCard key={id} title={title} date={date} image={image} />
+                <BlogCard title={title} date={date} image={image} />
               </a>
             </Link>
           ))}
