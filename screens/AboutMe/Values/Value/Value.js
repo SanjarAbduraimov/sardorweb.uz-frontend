@@ -26,7 +26,7 @@ const Container = styled.div`
   }
 `;
 
-export default function Item(props) {
+export default function Value(props) {
   return (
     <Container p={[20]} borderRadius={[8]}>
       <Wrapper display={['grid']} justifyItems={['flex-start']} gridGap={[24]}>

@@ -27,7 +27,7 @@ const Container = styled.div`
     background-color: #222233;
 
     ${Frame} {
-      background-color: green;
+      background-color: #57efb4;
     }
 
     svg {

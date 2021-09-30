@@ -11,7 +11,7 @@ const Container = styled.div`
   }
 
   &:hover {
-    background-color: #29c83f;
+    background-color: #57efb4;
 
     svg {
       fill: #12121c;
