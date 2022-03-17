@@ -36,7 +36,7 @@ export default function Logo() {
   return (
     <Container>
       <Image alt='' src='/portier-logo.svg' />
-      <Text>Portier</Text>
+      <Text>Sardor</Text>
     </Container>
   );
 }

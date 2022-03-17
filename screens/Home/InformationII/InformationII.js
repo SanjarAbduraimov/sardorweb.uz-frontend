@@ -40,8 +40,8 @@ export default function InformationII() {
             My main goal is too keep my customers satisfied.
           </Text>
           <Text size='caption'>
-            Even with skills that are primarily mental, such as computer
-            programming or speaking a foreign language.
+            Even with skills that are primarily mental, such as UX/UI design
+             or a Graphic design.
           </Text>
           <Text size='caption'>
             it remains the case that we learn best through practice and

@@ -59,6 +59,13 @@ const Text = styled('div')(
         lineHeight: ['24px', '24px'],
         fontWeight: 'bold',
       },
+      link: {
+        color: 'aluminium',
+        fontSize: [14],
+        lineHeight: ['24px'],
+        fontWeight: 400,
+        cursor: 'pointer',
+      },
       caption: {
         color: 'aluminium',
         fontSize: [14],

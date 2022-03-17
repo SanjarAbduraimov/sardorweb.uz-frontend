@@ -44,7 +44,7 @@ export default function Value(props) {
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
           >
-            <path fill-rule='evenodd' clip-rule='evenodd' d={props.icon} />
+            <path fillRule='evenodd' clipRule='evenodd' d={props.icon} />
           </svg>
         </Frame>
         <Wrapper

@@ -32,8 +32,8 @@ export default function Hero() {
             maxWidth={[600]}
           >
             <Text size={['heading3', 'heading1', 'hero']}>
-              I am Portier a UI-UX Designer
-              <span style={{ color: '#88888D' }}> based</span> in Florida
+              I am Sardor a <span style={{ color: '#57EFB4' }}>UI/UX Designer</span>
+              <span style={{ color: '#88888D' }}> based</span> in Tashkent
               <span style={{ color: '#57EFB4' }}>.</span>
             </Text>
             <Text size={['body2', 'body', 'body']}>

@@ -23,11 +23,10 @@ export default function Hero() {
           alignItems={['center']}
           justifyContent={['space-between']}
         >
-          <Button variant='primary'>Hire Me</Button>
+          <Button variant='primary' href='https://t.me/sardorabduraimov' target="_blank"> Hire Me</Button>
           <Wrapper maxWidth={[600]} mt={[24, 0, 0]}>
             <Text size={['body2', 'body', 'body']}>
-              I am Portier, experienced Digital Product Designer based on
-              Florida. I am here to help you build your amazing product.
+              I am Sardor, experienced UI/UX Designer based on Tashkent. I am here to help you build your amazing product.
             </Text>
           </Wrapper>
         </Wrapper>
