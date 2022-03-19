@@ -12,6 +12,7 @@ import {
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData();
+  console.log(allPostsData, "===== allPostsData from Home =====");
   return {
     props: {
       allPostsData,
