@@ -10,7 +10,7 @@ import {
   Works,
 } from "../screens/Home";
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const allPostsData = await getSortedPostsData();
   console.log(allPostsData, "===== allPostsData from Home =====");
   return {
