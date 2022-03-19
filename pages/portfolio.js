@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import { getSortedPostsData } from "../lib/portfolio";
 import { Hero, Works } from "../screens/Portfolio";
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const allPostsData = await getSortedPostsData();
   return {
     props: {
