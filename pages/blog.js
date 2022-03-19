@@ -1,14 +1,12 @@
 import { Hero } from "../screens/Blog";
 import Layout from "../components/Layout";
 import BlogCard from "../components/BlogCard";
-
 import { getSortedPostsData } from "../lib/posts";
 import { Container, Section, Text, Wrapper } from "../components/UIKit";
 import Link from "next/link";
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData();
-console.log(allPostsData, "===== allPostsData =====");
   return {
     props: {
       allPostsData,
