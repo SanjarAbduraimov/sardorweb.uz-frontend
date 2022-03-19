@@ -5,7 +5,7 @@ import { getSortedPostsData } from "../lib/posts";
 import { Container, Section, Text, Wrapper } from "../components/UIKit";
 import Link from "next/link";
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const allPostsData = await getSortedPostsData();
   return {
     props: {
