@@ -1,5 +1,6 @@
-import Cta from '../components/Cta';
-import Layout from '../components/Layout';
+import Cta from "../components/Cta";
+import Layout from "../components/Layout";
+import { getSortedPostsData } from "../lib/portfolio";
 import {
   Facts,
   Hero,
@@ -7,13 +8,22 @@ import {
   InformationII,
   Testimonials,
   Works,
-} from '../screens/Home';
+} from "../screens/Home";
 
-export default function Home() {
+export async function getStaticProps() {
+  const allPostsData = await getSortedPostsData();
+  return {
+    props: {
+      allPostsData,
+    },
+  };
+}
+
+export default function Home({ allPostsData }) {
   return (
-    <Layout title='Home'>
+    <Layout title="Home">
       <Hero />
-      <Works />
+      <Works allPostsData={allPostsData} />
       <Information />
       <Testimonials />
       <Facts />
