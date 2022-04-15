@@ -12,7 +12,6 @@ import {
 
 export async function getServerSideProps() {
   const allPostsData = await getSortedPostsData();
-  console.log(allPostsData, "===== allPostsData from Home =====");
   return {
     props: {
       allPostsData,
