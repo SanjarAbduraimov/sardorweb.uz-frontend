@@ -45,15 +45,7 @@ export default function Post({ postData }) {
   );
 }
 
-export async function getStaticPaths() {
-  const paths = await getAllPostIds();
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   const postData = await getPostData(params.id);
   return {
     props: {
