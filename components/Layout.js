@@ -8,25 +8,25 @@ export default function Layout({ children, title }) {
     <>
       <Head>
         <title>{title}</title>
-        <script
-          // data-partytown-config
-          id="lazyOnload_smartlook"
-          strategy="lazyOnload"
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `window.replainSettings = { id: 'e41b20c6-31f4-45a0-a584-6d4200e39287' };
-            (function(u)
-            {var s=document.createElement('script');
-            s.async=true;s.src=u;
-            var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-            })
-            ('https://widget.replain.cc/dist/client.js');`,
-          }}
-        ></script>
+//         <script
+//           // data-partytown-config
+//           id="lazyOnload_smartlook"
+//           strategy="lazyOnload"
+//           type="text/javascript"
+//           dangerouslySetInnerHTML={{
+//             __html: `window.replainSettings = { id: 'e41b20c6-31f4-45a0-a584-6d4200e39287' };
+//             (function(u)
+//             {var s=document.createElement('script');
+//             s.async=true;s.src=u;
+//             var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+//             })
+//             ('https://widget.replain.cc/dist/client.js');`,
+//           }}
+//         ></script>
         <link
           href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
+          rel="stylesheet"/>
+      </Head>      
       <Header />
       {children}
       <Footer />
