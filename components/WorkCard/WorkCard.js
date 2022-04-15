@@ -23,7 +23,7 @@ const Container = styled.div`
 
 export default function WorkCard(props) {
   return (
-    <a href={props.url}>
+    <a href={`/portfolio/${props.id}`}>
       <Container>
         <Frame
           position={["relative"]}
