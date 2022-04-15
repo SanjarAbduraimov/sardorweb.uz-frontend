@@ -7,7 +7,6 @@ import Link from "next/link";
 
 export async function getServerSideProps() {
   const allPostsData = await getSortedPostsData();
-  console.log(allPostsData, "allPostsData");
   return {
     props: {
       allPostsData,
