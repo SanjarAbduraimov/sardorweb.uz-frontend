@@ -14,7 +14,7 @@ export async function getServerSideProps() {
 
 export default function Portfolio({ allPostsData }) {
   return (
-    <Layout>
+    <Layout title="Portfolio">
       <Hero />
       <Works allPostsData={allPostsData} />
       <Cta />

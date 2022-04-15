@@ -4,7 +4,7 @@ import { Companies, Facts, Hero, Values } from '../screens/AboutMe';
 
 export default function AboutMe() {
   return (
-    <Layout>
+    <Layout title="About Me">
       <Hero />
       <Companies />
       <Values />

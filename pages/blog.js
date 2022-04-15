@@ -17,7 +17,7 @@ export async function getServerSideProps() {
 
 export default function Blog({ allPostsData }) {
   return (
-    <Layout>
+    <Layout title="Blogs">
       <Hero />
       <Section py={[45, 80, 100]} px={[32, 60, 90]}>
         <Wrapper display={["grid"]} gridGap={[16]} mb={[48]}>
