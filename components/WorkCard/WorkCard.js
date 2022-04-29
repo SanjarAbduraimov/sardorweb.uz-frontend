@@ -1,6 +1,7 @@
 import { Wrapper, Text, Frame } from "../UIKit";
 import Image from "next/image";
 import styled from "styled-components";
+import Link from "next/link";
 
 const Container = styled.div`
   position: relative;
@@ -23,7 +24,7 @@ const Container = styled.div`
 
 export default function WorkCard(props) {
   return (
-    <a href={props.url}>
+    <Link href={"/portfolios/" + props.id}>
       <Container>
         <Frame
           position={["relative"]}
@@ -80,6 +81,6 @@ export default function WorkCard(props) {
           </Wrapper>
         </Wrapper>
       </Container>
-    </a>
+    </Link>
   );
 }
