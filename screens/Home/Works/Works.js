@@ -6,7 +6,13 @@ export default function Works({ allPostsData }) {
     <Section py={[45, 80, 100]} px={[32, 80, 90]}>
       <Container display={["grid"]} gridGap={[32]}>
         {allPostsData.map((item, index) => (
-          <WorkCard key={index} image={item.image}  url={item.url} title={item.title} />
+          <WorkCard
+            key={index}
+            image={item.image}
+            url={item.url}
+            id={item.id}
+            title={item.title}
+          />
         ))}
       </Container>
     </Section>
