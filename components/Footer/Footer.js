@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../Logo";
-import { FiFacebook, FiTwitter, FiInstagram, FiDribbble } from "react-icons/fi";
+import { FiFacebook, FiLinkedin, FiInstagram, FiDribbble } from "react-icons/fi";
+import { FaTelegram, FaBehance } from "react-icons/fa";
 import {
   Container,
   Text,
@@ -14,54 +15,46 @@ import Social from "./Social";
 const social = [
   {
     icon: <FiInstagram />,
-    link: "https://www.instagram.com/",
+    link: "http://instagram.com/abduraimovsardorjon",
   },
-  // {
-  //   icon: "M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z",
-  //   link: "https://www.linkedin.com/in/sardorabduraimov/",
-  // },
+  {
+    icon: <FaBehance />,
+    link: "http://behance.com/sardorabdurahimov",
+  },
   {
     icon: <FiFacebook />,
-    link: "https://www.facebook.com/",
+    link: "http://facebook.com/AbdurahimovSardorbek",
   },
   {
-    icon: <FiTwitter />,
-    link: "https://www.twitter.com/",
+    icon: <FiLinkedin />,
+    link: "http://Linkedin.com/sardorabduraimov",
   },
   {
     icon: <FiDribbble />,
-    link: "https://dribbble.com/",
+    link: "https://dribbble.com/sardorabdurahimov",
+  },
+  {
+    icon: <FaTelegram />,
+    link: "http://t.me/sardorabduraimov",
   },
 ];
 
 const links = [
   {
+    title: "Portfolio",
+    url: "portfolio",
+  },
+  {
     title: "About Me",
     url: "aboutme",
   },
   {
-    title: "Pricing",
-    url: "pricing",
-  },
-  {
-    title: "Handbook",
-    url: "aboutme",
+    title: "Blog",
+    url: "blog",
   },
   {
     title: "Contact",
     url: "contact",
-  },
-  {
-    title: "Products",
-    url: "products",
-  },
-  {
-    title: "Request demo",
-    url: "contact",
-  },
-  {
-    title: "Blog",
-    url: "blog",
   },
 ];
 
@@ -73,21 +66,21 @@ export default function Footer() {
       <Frame display={["grid"]} gridGap={34}>
         <Logo />
         <Wrapper
-          display={["grid"]}
-          gridTemplateColumns={["1fr 1fr", "1fr 1fr 1fr 1fr"]}
+          display={["flex"]}
           gridGap={[2]}
           mb={48}
         >
           {links.map((item, index) => (
-            <Wrapper key={index}>
+            <Wrapper mr={5} key={index}>
               <NavigationLink href={item.url}>{item.title}</NavigationLink>
             </Wrapper>
           ))}
         </Wrapper>
       </Frame>
       <Wrapper
-        display={["grid", "flex"]}
+        display={["flex"]}
         gridGap={20}
+        flexDirection={["column", "row"]}
         justifyItems="center"
         alignItems="center"
         justifyContent="space-between"
@@ -96,7 +89,7 @@ export default function Footer() {
           <Text size="caption2">
             Copyright © {date.getFullYear()} - All rights reserved - Made by{" "}
             <a
-              href="https://sanjarweb.uz"
+              href="https://sanjarbek.dev"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#3b71fe", fontWeight: "bold" }}
@@ -107,8 +100,7 @@ export default function Footer() {
         </Wrapper>
 
         <Wrapper
-          display={["grid"]}
-          gridTemplateColumns={"1fr 1fr 1fr 1fr"}
+          display={["flex"]}
           justifyItems={["center", "flex-end"]}
           gridGap={20}
         >

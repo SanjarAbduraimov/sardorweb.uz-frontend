@@ -4,9 +4,39 @@ import {
   Wrapper,
   Frame,
   Text,
+  Link,
 } from '../../../components/UIKit';
 import Image from 'next/image';
-
+const social = [
+  {
+    text: "Instagram",
+    link: "http://instagram.com/abduraimovsardorjon",
+  },
+  {
+    text: "Email",
+    link: "mailto:sardorabdurahimov@gmail.com",
+  },
+  // {
+  //   text: "Behance",
+  //   link: "http://behance.com/sardorabdurahimov",
+  // },
+  {
+    text: "Facebook",
+    link: "http://facebook.com/AbdurahimovSardorbek",
+  },
+  // {
+  //   text: "Linkedin",
+  //   link: "http://Linkedin.com/sardorabduraimov",
+  // },
+  // {
+  //   text: "Linkedin",
+  //   link: "https://dribbble.com/sardorabdurahimov",
+  // },
+  {
+    text: "Telegram",
+    link: "http://t.me/sardorabduraimov",
+  },
+];
 export default function Hero() {
   return (
     <Section pt={[90, 100, 120]} px={[32, 60, 90]} pb={[90, 100, 120]}>
@@ -41,10 +71,15 @@ export default function Hero() {
             </Text>
           </Wrapper>
           <Wrapper display={['grid']} gridGap={[2]} mt={[48, 0, 0]}>
-            <Text size='caption'>Twitter</Text>
-            <Text size='caption'>Facebook</Text>
+            {social.map((item, index) => {
+              return (<Link href={item.link}>
+                <Text size='caption'>{item.text}</Text>
+              </Link>)
+
+            })}
+            {/* <Text size='caption'>Facebook</Text>
             <Text size='caption'>Email</Text>
-            <Text size='caption'>Instagram</Text>
+            <Text size='caption'>Instagram</Text> */}
           </Wrapper>
         </Wrapper>
         <Frame

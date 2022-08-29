@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Button, NavigationLink } from '../../UIKit';
 
 export default function HeaderLinks() {
@@ -6,9 +7,11 @@ export default function HeaderLinks() {
       <NavigationLink href='/portfolio'>Portfolio</NavigationLink>
       <NavigationLink href='/aboutme'>About Me</NavigationLink>
       <NavigationLink href='/blog'>Blog</NavigationLink>
-      <Button variant='secondary' href='mailto:angelCL0@outlook.com'>
-        Get Template
-      </Button>
+      <Link href="/contact">
+        <Button variant='secondary'>
+          Get In Touch
+        </Button>
+      </Link>
     </>
   );
 }
